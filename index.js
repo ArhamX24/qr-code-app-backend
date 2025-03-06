@@ -17,7 +17,7 @@ server.use(express.json());
 server.use(urlencoded({extended: true}));
 server.use(cors({
     // origin: "http://localhost:5173",
-    origin: "qrcodehsp.netlify.app",
+    origin: "https://qrcodehsp.netlify.app/",
     credentials: true
 }));
 
